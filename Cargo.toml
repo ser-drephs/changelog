@@ -1,0 +1,21 @@
+[package]
+name = "changelog"
+version = "0.1.0"
+authors = ["ser-drephs <ser.drephs@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+git2 = "0.13"
+enum-display-derive = "0.1.1"
+regex = "1.4.5"
+lazy_static = "1.4.0"
+dirs-next = "2.0.0"
+serde = { version="1.0.124" , features = ["derive"] }
+serde_json = "1.0.64"
+log = "0.4.14"
+simple_logger = "1.11.0"
+markdown-gen = "1.2.1"
+chrono = "0.4.19"
+handlebars = "3.5.3"
